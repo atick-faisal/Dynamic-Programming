@@ -9,7 +9,7 @@ fun main() {
         // val n = Fibonacci.optimizedGetAtPosition(50)
         // n = GridTraveller.getOptimizedNumberOfPaths(18, 18)
         // n = GridTraveller.getMoreOptimizedNumberOfPaths(18, 18)
-        n = CanSum.isPossible(7, arrayOf(2, 4))
+        n = CanSum.isPossibleOptimized(300, arrayOf(7, 14))
     }
 
     print("ANSWER: $n, TIME: $timeElapsed ms")

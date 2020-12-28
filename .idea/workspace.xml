@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c0358a1-2ea9-453e-ad77-37b06deea738" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sum/CanSum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sum/CanSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sum/CanSum.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <updated>1609124045056</updated>
       <workItem from="1609124279110" duration="1626000" />
       <workItem from="1609146005544" duration="1850000" />
-      <workItem from="1609156346805" duration="721000" />
+      <workItem from="1609156346805" duration="2175000" />
     </task>
     <servers />
   </component>
@@ -116,22 +116,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1609151652538">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1609157798744">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1609151652538" />
-    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1609151652537">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1609157798744" />
+    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1609157798741">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1609151652537" />
-    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1609151652537">
+    <state width="1320" height="172" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1609157798741" />
+    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1609157798740">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1609151652537" />
-    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1609151652537">
+    <state width="1320" height="172" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1609157798740" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1609157798742">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1609151652537" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1609157798742" />
     <state x="373" y="0" width="620" height="736" key="find.popup" timestamp="1609156476368">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
