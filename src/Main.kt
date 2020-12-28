@@ -15,7 +15,14 @@ fun main() {
         // n = CanSum.isPossibleOptimized(300, arrayOf(7, 14))
         // n = HowSum.getElementsOptimized(8, arrayOf(2, 3, 5))
         // n = BestSum.getBestCombination(8, arrayOf(2, 3))
-        n = CanConstruct.isConstructable("asf", arrayOf("as", "asd", "d"))
+//        n = CanConstruct.isConstructableOptimized(
+//                "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef",
+//                arrayOf("eeeeeeeee",
+//                        "eeeee",
+//                        "eee",
+//                        "ee",
+//                        "e"))
+
     }
 
     print("ANSWER: $n, TIME: $timeElapsed ms")
