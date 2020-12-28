@@ -1,4 +1,5 @@
 import construct.CanConstruct
+import construct.CountConstruct
 import fibonacci.Fibonacci
 import grid.GridTraveller
 import sum.BestSum
@@ -22,7 +23,7 @@ fun main() {
 //                        "eee",
 //                        "ee",
 //                        "e"))
-
+        n = CountConstruct.getCount("asdf", arrayOf("as", "df", "asd", "f"))
     }
 
     print("ANSWER: $n, TIME: $timeElapsed ms")
