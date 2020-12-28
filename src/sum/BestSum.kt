@@ -18,4 +18,50 @@ object BestSum {
         }
         return bestCombination
     }
+
+//    fun getBestCombinationOptimized(
+//            targetSum: Int,
+//            numbers: Array<Int>,
+//            memory: HashMap<Int, MutableList<Int>?> = hashMapOf()
+//    ): MutableList<Int>? {
+//        if (memory.containsKey(targetSum)) return memory[targetSum]
+//        if (targetSum == 0) return mutableListOf()
+//        if (targetSum < 0) return null
+//        var bestCombination: MutableList<Int>? = null
+//        for (number in numbers) {
+//            val newTarget = targetSum - number
+//            val result = getBestCombinationOptimized(newTarget, numbers, memory)
+//            if (result != null) {
+//                result.add(number)
+//                if (bestCombination == null || result.size < bestCombination.size) {
+//                    bestCombination = result
+//                }
+//            }
+//        }
+//        memory[targetSum] = bestCombination
+//        return bestCombination
+//    }
+
+    fun getBestCombinationOptimized(
+            targetSum: Int,
+            numbers: Array<Int>,
+            memory: HashMap<Int, MutableList<Int>?> = hashMapOf()
+    ): MutableList<Int>? {
+        if (memory.containsKey(targetSum)) return memory[targetSum]
+        if (targetSum == 0) return mutableListOf()
+        if (targetSum < 0) return null
+        var bestCombination: MutableList<Int>? = null
+        for (number in numbers) {
+            val newTarget = targetSum - number
+            val result = getBestCombinationOptimized(newTarget, numbers, memory)
+            result?.let {
+                it.add(number)
+                if (it.size < bestCombination?.size ?: it.size + 1) {
+                    bestCombination = it
+                }
+            }
+        }
+        memory[targetSum] = bestCombination
+        return bestCombination
+    }
 }
