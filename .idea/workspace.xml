@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c0358a1-2ea9-453e-ad77-37b06deea738" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/construct/CanConstruct.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structure-and-Algorithm/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data-Structure-and-Algorithm/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sum/BestSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sum/BestSum.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Data-Structure-and-Algorithm" />
       <option name="VM_PARAMETERS" />
@@ -86,6 +100,7 @@
       <workItem from="1609124279110" duration="1626000" />
       <workItem from="1609146005544" duration="1850000" />
       <workItem from="1609156346805" duration="10789000" />
+      <workItem from="1609169173351" duration="3739000" />
     </task>
     <servers />
   </component>
@@ -105,22 +120,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="215" key="GridCell.Tab.0.bottom" timestamp="1609169115899">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1609174965133">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="215" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1609169115899" />
-    <state width="1320" height="215" key="GridCell.Tab.0.center" timestamp="1609169115898">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1609174965133" />
+    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1609174965132">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="215" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1609169115898" />
-    <state width="1320" height="215" key="GridCell.Tab.0.left" timestamp="1609169115897">
+    <state width="1320" height="172" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1609174965132" />
+    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1609174965132">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="215" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1609169115897" />
-    <state width="1320" height="215" key="GridCell.Tab.0.right" timestamp="1609169115898">
+    <state width="1320" height="172" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1609174965132" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1609174965132">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="215" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1609169115898" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1609174965132" />
     <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1609169115900">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
@@ -141,16 +156,5 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="373" y="0" width="620" height="736" key="find.popup/0.0.1366.736@0.0.1366.736" timestamp="1609156476368" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/sum/BestSum.kt</url>
-          <line>64</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
