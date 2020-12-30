@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c0358a1-2ea9-453e-ad77-37b06deea738" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tabulation/construct/AllConstruct.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion/construct/AllConstruct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/construct/AllConstruct.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dynamic-Programming/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dynamic-Programming/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabulation/construct/AllConstruct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabulation/construct/AllConstruct.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,7 @@
       <workItem from="1609225037878" duration="2535000" />
       <workItem from="1609240795334" duration="1467000" />
       <workItem from="1609271773320" duration="3062000" />
-      <workItem from="1609331470125" duration="17281000" />
+      <workItem from="1609331470125" duration="19992000" />
     </task>
     <servers />
   </component>
@@ -132,22 +133,22 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="436" y="141" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1366.736@0.0.1366.736" timestamp="1609331753114" />
-    <state width="1320" height="197" key="GridCell.Tab.0.bottom" timestamp="1609350511675">
+    <state width="1320" height="197" key="GridCell.Tab.0.bottom" timestamp="1609355292338">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="197" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1609350511675" />
-    <state width="1320" height="197" key="GridCell.Tab.0.center" timestamp="1609350511672">
+    <state width="1320" height="197" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1609355292338" />
+    <state width="1320" height="197" key="GridCell.Tab.0.center" timestamp="1609355292337">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="197" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1609350511672" />
-    <state width="1320" height="197" key="GridCell.Tab.0.left" timestamp="1609350511670">
+    <state width="1320" height="197" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1609355292337" />
+    <state width="1320" height="197" key="GridCell.Tab.0.left" timestamp="1609355292336">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="197" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1609350511670" />
-    <state width="1320" height="197" key="GridCell.Tab.0.right" timestamp="1609350511674">
+    <state width="1320" height="197" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1609355292336" />
+    <state width="1320" height="197" key="GridCell.Tab.0.right" timestamp="1609355292337">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="197" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1609350511674" />
+    <state width="1320" height="197" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1609355292337" />
     <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1609169115900">
       <screen x="0" y="0" width="1366" height="736" />
     </state>

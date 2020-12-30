@@ -13,6 +13,7 @@ import tabulation.sum.BestSum as BestSumTable
 import tabulation.construct.CanConstruct as CanConstructTable
 import tabulation.construct.HowConstruct as HowConstructTable
 import tabulation.construct.CountConstruct as CountTable
+import tabulation.construct.AllConstruct as AllConstructTable
 import kotlin.system.measureTimeMillis
 
 fun main() {
@@ -38,8 +39,10 @@ fun main() {
 //                "asdfe", arrayOf("as", "df", "asd", "f", "e"))
 //        n = HowConstructTable.getCombination(
 //        "asdfeg", arrayOf("as", "df", "asd", "f", "e"))
-        n = CountTable.getCount(
-                "asdfe", arrayOf("as", "df", "asd", "f", "e"))
+//        n = CountTable.getCount(
+//                "asdfe", arrayOf("as", "df", "asd", "f", "e"))
+        n = AllConstructTable.getAllCombinations(
+                "asdf", arrayOf("as", "df", "asd", "f", "e"))
     }
     print("RESULT: ${n}, TIME: $timeElapsed ms")
 }
