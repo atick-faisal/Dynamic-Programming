@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c0358a1-2ea9-453e-ad77-37b06deea738" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tabulation/grid/GridTraveller.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tabulation/sum/CanSum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +107,7 @@
       <workItem from="1609225037878" duration="2535000" />
       <workItem from="1609240795334" duration="1467000" />
       <workItem from="1609271773320" duration="3062000" />
-      <workItem from="1609331470125" duration="3041000" />
+      <workItem from="1609331470125" duration="4001000" />
     </task>
     <servers />
   </component>
@@ -132,22 +131,22 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="436" y="141" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1366.736@0.0.1366.736" timestamp="1609331753114" />
-    <state width="1320" height="249" key="GridCell.Tab.0.bottom" timestamp="1609333108619">
+    <state width="1320" height="249" key="GridCell.Tab.0.bottom" timestamp="1609336019279">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="249" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1609333108619" />
-    <state width="1320" height="249" key="GridCell.Tab.0.center" timestamp="1609333108619">
+    <state width="1320" height="249" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1609336019279" />
+    <state width="1320" height="249" key="GridCell.Tab.0.center" timestamp="1609336019279">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="249" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1609333108619" />
-    <state width="1320" height="249" key="GridCell.Tab.0.left" timestamp="1609333108618">
+    <state width="1320" height="249" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1609336019279" />
+    <state width="1320" height="249" key="GridCell.Tab.0.left" timestamp="1609336019279">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="249" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1609333108618" />
-    <state width="1320" height="249" key="GridCell.Tab.0.right" timestamp="1609333108619">
+    <state width="1320" height="249" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1609336019279" />
+    <state width="1320" height="249" key="GridCell.Tab.0.right" timestamp="1609336019279">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1320" height="249" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1609333108619" />
+    <state width="1320" height="249" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1609336019279" />
     <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1609169115900">
       <screen x="0" y="0" width="1366" height="736" />
     </state>

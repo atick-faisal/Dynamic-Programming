@@ -7,6 +7,7 @@ import recursion.sum.CanSum
 import recursion.sum.HowSum
 import tabulation.fibonacci.Fibonacci as FibTable
 import tabulation.grid.GridTraveller as GridTable
+import tabulation.sum.CanSum as SumTable
 import kotlin.system.measureTimeMillis
 
 fun main() {
@@ -24,7 +25,8 @@ fun main() {
 //        n = AllConstruct.getAllWaysOptimized(
 //                "asdf", arrayOf("as", "df", "asd", "f"))
 //        n = FibTable.getAtPosition(100)
-        n = GridTable.getNumberOfPaths(18, 18)
+//        n = GridTable.getNumberOfPaths(18, 18)
+//        n = SumTable.isPossible(300, arrayOf(7, 14))
     }
     print("RESULT: $n, TIME: $timeElapsed ms")
 }
