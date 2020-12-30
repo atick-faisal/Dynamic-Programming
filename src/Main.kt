@@ -9,6 +9,7 @@ import tabulation.fibonacci.Fibonacci as FibTable
 import tabulation.grid.GridTraveller as GridTable
 import tabulation.sum.CanSum as SumTable
 import tabulation.sum.HowSum as HowSumTable
+import tabulation.sum.BestSum as BestSumTable
 import kotlin.system.measureTimeMillis
 
 fun main() {
@@ -20,7 +21,7 @@ fun main() {
 //        n = GridTraveller.getMoreOptimizedNumberOfPaths(18, 18)
 //        n = CanSum.isPossibleOptimized(300, arrayOf(7, 14))
 //        n = HowSum.getElementsOptimized(8, arrayOf(2, 3, 5))
-        n = BestSum.getBestCombination(8, arrayOf(2, 5))
+//        n = BestSum.getBestCombination(8, arrayOf(2, 5))
 //        n = CountConstruct.getCountOptimized(
 //                "asdf", arrayOf("as", "df", "asd", "f"))
 //        n = AllConstruct.getAllWaysOptimized(
@@ -28,7 +29,8 @@ fun main() {
 //        n = FibTable.getAtPosition(100)
 //        n = GridTable.getNumberOfPaths(18, 18)
 //        n = SumTable.isPossible(300, arrayOf(7, 14))
-//        n = HowSumTable.getElements(5, arrayOf(2, 3, 7))
+//        n = HowSumTable.getElements(8, arrayOf(2, 3, 5, 1))
+//        n = BestSumTable.getBestCombination(100, arrayOf(2, 3, 5, 25))
     }
-    print("RESULT: $n, TIME: $timeElapsed ms")
+    print("RESULT: ${n}, TIME: $timeElapsed ms")
 }
