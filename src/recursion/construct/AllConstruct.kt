@@ -1,14 +1,14 @@
 package recursion.construct
 
 object AllConstruct {
-    fun getAllWays(targetWord: String, wordBank: Array<String>):
+    fun getAllCombinations(targetWord: String, wordBank: Array<String>):
             MutableList<MutableList<String>> {
         if (targetWord.isEmpty()) return mutableListOf(mutableListOf())
         val result = mutableListOf<MutableList<String>>()
         for (word in wordBank) {
             if (targetWord.startsWith(word)) {
                 val suffix = targetWord.slice(word.length until targetWord.length)
-                val ways = getAllWays(suffix, wordBank)
+                val ways = getAllCombinations(suffix, wordBank)
                 ways.map { way ->
                     way.add(word)
                     result.add(way)
@@ -18,7 +18,7 @@ object AllConstruct {
         return result
     }
 
-    fun getAllWaysOptimized(
+    fun getAllCombinationsOptimized(
             targetWord: String,
             wordBank: Array<String>,
             memory: HashMap<String, MutableList<MutableList<String>>> = hashMapOf()
@@ -29,7 +29,7 @@ object AllConstruct {
         for (word in wordBank) {
             if (targetWord.startsWith(word)) {
                 val suffix = targetWord.slice(word.length until targetWord.length)
-                val ways = getAllWaysOptimized(suffix, wordBank, memory)
+                val ways = getAllCombinationsOptimized(suffix, wordBank, memory)
                 ways.map { way ->
                     way.add(word)
                     result.add(way)
