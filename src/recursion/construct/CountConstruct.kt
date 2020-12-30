@@ -1,4 +1,4 @@
-package construct
+package recursion.construct
 
 object CountConstruct {
     fun getCount(targetWord: String, wordBank: Array<String>): Int {

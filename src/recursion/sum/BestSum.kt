@@ -1,4 +1,4 @@
-package sum
+package recursion.sum
 
 object BestSum {
     fun getBestCombination(targetSum: Int, numbers: Array<Int>)

@@ -1,4 +1,4 @@
-package construct
+package recursion.construct
 
 object CanConstruct {
     fun isConstructable(targetWord: String, wordBank: Array<String>): Boolean {

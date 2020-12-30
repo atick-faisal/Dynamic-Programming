@@ -1,27 +1,28 @@
-import construct.AllConstruct
-import construct.CanConstruct
-import construct.CountConstruct
-import fibonacci.Fibonacci
-import grid.GridTraveller
-import sum.BestSum
-import sum.CanSum
-import sum.HowSum
+import recursion.construct.AllConstruct
+import recursion.construct.CountConstruct
+import recursion.fibonacci.Fibonacci
+import recursion.grid.GridTraveller
+import recursion.sum.BestSum
+import recursion.sum.CanSum
+import recursion.sum.HowSum
+import tabulation.fibonacci.Fibonacci as FibTable
 import kotlin.system.measureTimeMillis
 
 fun main() {
     var n: Any? = null
     val timeElapsed = measureTimeMillis {
-        n = Fibonacci.getAtPosition(7)
-        n = Fibonacci.optimizedGetAtPosition(100)
-        n = GridTraveller.getOptimizedNumberOfPaths(18, 18)
-        n = GridTraveller.getMoreOptimizedNumberOfPaths(18, 18)
-        n = CanSum.isPossibleOptimized(300, arrayOf(7, 14))
-        n = HowSum.getElementsOptimized(8, arrayOf(2, 3, 5))
-        n = BestSum.getBestCombination(8, arrayOf(2, 3))
-        n = CountConstruct.getCountOptimized(
-                "asdf", arrayOf("as", "df", "asd", "f"))
-        n = AllConstruct.getAllWays(
-                "asdf", arrayOf("as", "df", "asd", "f"))
+//        n = Fibonacci.getAtPosition(7)
+//        n = Fibonacci.getAtPositionOptimized(100)
+//        n = GridTraveller.getOptimizedNumberOfPaths(18, 18)
+//        n = GridTraveller.getMoreOptimizedNumberOfPaths(18, 18)
+//        n = CanSum.isPossibleOptimized(300, arrayOf(7, 14))
+//        n = HowSum.getElementsOptimized(8, arrayOf(2, 3, 5))
+//        n = BestSum.getBestCombination(8, arrayOf(2, 3))
+//        n = CountConstruct.getCountOptimized(
+//                "asdf", arrayOf("as", "df", "asd", "f"))
+//        n = AllConstruct.getAllWaysOptimized(
+//                "asdf", arrayOf("as", "df", "asd", "f"))
+        n = FibTable.getAtPosition(100)
     }
     print("RESULT: $n, TIME: $timeElapsed ms")
 }

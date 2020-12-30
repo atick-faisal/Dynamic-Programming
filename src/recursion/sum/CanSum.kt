@@ -1,4 +1,4 @@
-package sum
+package recursion.sum
 
 object CanSum {
     fun isPossible(targetSum: Int, numbers: Array<Int>): Boolean {

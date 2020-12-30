@@ -1,4 +1,4 @@
-package sum
+package recursion.sum
 
 object HowSum {
     fun getElements(targetSum: Int, numbers: Array<Int>)

@@ -1,4 +1,4 @@
-package grid
+package recursion.grid
 
 object GridTraveller {
     fun getNumberOfPaths(m: Int, n: Int): Long {
