@@ -1,15 +1,16 @@
 package tabulation.construct
 
-object CanConstruct {
-    fun isPossible(targetWord: String, wordBank: Array<String>): Boolean {
-        val table = Array(targetWord.length + 1) { false }
-        table[0] = true
+object HowConstruct {
+    fun getCombination(targetWord: String, wordBank: Array<String>): MutableList<String>? {
+        val table = Array<MutableList<String>?>(targetWord.length + 1) { null }
+        table[0] = mutableListOf()
         for (i in 0..targetWord.length) {
-            if (table[i]) {
+            if (table[i] != null) {
                 for (word in wordBank) {
                     try {
                         if (word == targetWord.slice(i until (i + word.length))) {
-                            table[i + word.length] = true
+                            table[i + word.length] = table[i]!!.toMutableList()
+                            table[i + word.length]!!.add(word)
                         }
                     } catch (e: StringIndexOutOfBoundsException) {
                     }
