@@ -57,7 +57,9 @@ object BestSum {
             result?.let {
                 it.add(number)
                 if (it.size < bestCombination?.size ?: it.size + 1) {
-                    bestCombination = it
+
+                    // MUST DE-REFERENCE THE LIST
+                    bestCombination = it.toMutableList()
                 }
             }
         }

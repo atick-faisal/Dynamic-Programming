@@ -8,6 +8,7 @@ object HowSum {
             if (table[i] != null) {
                 for (n in numbers) {
                     if ((i + n) <= targetSum) {
+                        // MUST DE_REFERENCE THE LIST
                         table[i + n] = table[i]!!.toMutableList()
                         table[i + n]!!.add(n)
                     }
