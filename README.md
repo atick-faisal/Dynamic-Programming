@@ -110,7 +110,7 @@ This problem can have multiple variations.
 - Store the return values in the hash-map with the input number as key
 - In the beginning of every recursion, check for the result in the memory object
 - If the result is already there, return; otherwise continue subtracting until the number gets negative
-- Time complexity: **O(n x m<sup>2</sup>)**
+- For shortest combination problem, time complexity: **O(n x m<sup>2</sup>)**
 
 <p align="center">
     <img src="assets/sum_tree.png" width="600">
@@ -122,7 +122,7 @@ This problem can have multiple variations.
 - Seed the table by setting table[0] = [ ]
 - Iterate through the table and for any non-null element iterate through the list of numbers and append the current number, **n** to all the combinations in the current index, **i** and add them all to the **[ i + n ]** index of the table.
 - Continue till the current index reaches **m**
-- Time complexity: **O(n x m<sup>2</sup>)**
+- For shortest combination problem, time complexity: **O(n x m<sup>2</sup>)**
 
 <p align="center">
     <img src="assets/sum_table.png" width="600">
@@ -155,7 +155,7 @@ This problem can have multiple variations.
 - Store the return values in the hash-map with the input number as key
 - In the beginning of every recursion, check for the result in the memory object
 - If the result is already there, return; otherwise continue subtracting until the string becomes empty
-- Time complexity: **O(n<sup>m</sup>)**. STILL, EXPONENTIAL.
+- For all combinations' problem, time complexity: **O(n<sup>m</sup>)**. STILL, EXPONENTIAL.
 
 <p align="center">
     <img src="assets/construct_tree.png" width="600">
@@ -167,8 +167,14 @@ This problem can have multiple variations.
 - Seed the table by setting table[0] = [ ]
 - Iterate through the table and for any non-null element iterate through the list of sub-strings and if the current sub-string matches the corresponding sub-string in the target word, append it to all the combinations in the current index, **i** and add them all to the **[ i + n ]** index of the table.
 - Continue till the current index reaches **m**
-- Time complexity: **O(n<sup>m</sup>)**. STILL, EXPONENTIAL.
+- For all combinations' problem, time complexity: **O(n<sup>m</sup>)**. STILL, EXPONENTIAL.
 
 <p align="center">
     <img src="assets/construct_table.png" width="600">
 </p>
+
+
+## License
+[![licensebuttons by-nc-sa](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
+
+This work is licensed under [GNU General Public License v3.0](https://github.com/atick-faisal/PIC16F877a/blob/master/LICENSE).
