@@ -39,3 +39,45 @@ The function should return n-th number in the **Fibonacci sequence**.
 <p align="center">
     <img src="assets/fib_table.png" width="600">
 </p>
+
+<h3>Grid Traveller</h3>
+
+Say that you are traveller on a **2D grid**. You start at the top left conner.
+Your goal is to travel to the bottom right corner.
+You can only move **down** or **right** 
+How many ways can you travel on a **m x n** grid?
+Write a function gridTraveller(m, n) that calculates this.
+
+> gridTraveller(1, 1) = 1
+>
+> gridTraveller(0, n), gridTraveller(m, 0) = 0
+>
+> Moving right on a m x n grid will result in a (m-1) x n for the next move
+>
+> Moving down on a m x n grid will result in a m x (n-1) grid for the next move
+>
+> Time complexity: O(2<sup>m+n</sup>)
+
+#### [Memorization](src/recursion/grid/GridTraveller.kt)
+
+- Create a memory object using hash-map or similar data structure
+- Store the return values in the hash-map with the input number as key
+- In the beginning of every recursion, check for the result in the memory object
+- If the result is already there, return; otherwise change the grid dimension accordingly and continue
+- Time complexity: **O(m x n)**
+
+<p align="center">
+    <img src="assets/grid_tree.png" width="600">
+</p>
+
+#### [Tabulation](src/tabulation/grid/GridTraveller.kt)
+
+- Create an table with (m + 1) x (n + 1) dimension. Initialize every cell with 0s
+- Seed the table by: table[1][1] = 1; since gridTraveller(1, 1) = 1
+- Iterate through the table. Add each element to the element on right and down.
+- Continue till the bottom right corner. table[m][n] will contain the result
+- Time complexity **O(m * n)**
+
+<p align="center">
+    <img src="assets/grid_table.png" width="600">
+</p>

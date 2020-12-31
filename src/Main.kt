@@ -31,7 +31,7 @@ fun main() {
 //        n = AllConstruct.getAllWaysOptimized(
 //                "asdf", arrayOf("as", "df", "asd", "f"))
 //        n = FibTable.getAtPosition(100)
-//        n = GridTable.getNumberOfPaths(18, 18)
+        n = GridTable.getNumberOfPaths(2, 2)
 //        n = SumTable.isPossible(300, arrayOf(7, 14))
 //        n = HowSumTable.getElements(8, arrayOf(2, 3, 5, 1))
 //        n = BestSumTable.getBestCombination(100, arrayOf(2, 3, 5, 25))
@@ -41,8 +41,8 @@ fun main() {
 //        "asdfeg", arrayOf("as", "df", "asd", "f", "e"))
 //        n = CountTable.getCount(
 //                "asdfe", arrayOf("as", "df", "asd", "f", "e"))
-        n = AllConstructTable.getAllCombinations(
-                "asdfh", arrayOf("as", "df", "asd", "f", "e"))
+//        n = AllConstructTable.getAllCombinations(
+//                "asdfh", arrayOf("as", "df", "asd", "f", "e"))
     }
     print("RESULT: ${n}, TIME: $timeElapsed ms")
 }
