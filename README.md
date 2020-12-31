@@ -31,6 +31,7 @@ The function should return n-th number in the **Fibonacci sequence**.
 </p>
 
 #### [Tabulation](/src/tabulation/fibonacci/Fibonacci.kt)
+
 - Create a table of length (n+1). Initialize with 0s
 - Seed table by inserting 1 in the 1th element. table[1] = 1
 - Iterate through the table and add each element to the next two elements.
@@ -74,7 +75,7 @@ Write a function gridTraveller(m, n) that calculates this.
 
 #### [Tabulation](src/tabulation/grid/GridTraveller.kt)
 
-- Create an table with (m + 1) x (n + 1) dimension. Initialize every cell with 0s
+- Create a table with (m + 1) x (n + 1) dimension. Initialize every cell with 0s
 - Seed the table by: table[1][1] = 1; since gridTraveller(1, 1) = 1
 - Iterate through the table. Add each element to the element on right and down.
 - Continue till the bottom right corner. table[m][n] will contain the result
@@ -92,7 +93,7 @@ This problem can have multiple variations.
 2. How many ways can you generate the number from the list?
 3. What is the shortest way of generating the number from the list?
 
-> If n is 0, it can be generated regardless of the elements in the list
+> If m is 0, it can be generated regardless of the elements in the list
 >
 > Keep subtracting the elements until the result is negative
 >
@@ -108,7 +109,20 @@ This problem can have multiple variations.
 - Store the return values in the hash-map with the input number as key
 - In the beginning of every recursion, check for the result in the memory object
 - If the result is already there, return; otherwise continue subtracting until the number gets negative
+- Time complexity: **O(n x m<sup>2</sup>)**
 
 <p align="center">
     <img src="assets/sum_tree.png" width="600">
+</p>
+
+#### [Tabulation](src/tabulation/sum/)
+
+- Create a table with (m + 1) elements, initialize with null
+- Seed the table by setting table[0] = [ ]
+- Iterate through the table and for any non-null element iterate through the list of numbers and append the current number, **n** to all the combinations in current index, **i** and add them all to the **[ i + n ]** index of the table.
+- Continue till the current index reaches **m**
+- Time complexity: **O(n x m<sup>2</sup>)**
+
+<p align="center">
+    <img src="assets/sum_table.png" width="600">
 </p>
