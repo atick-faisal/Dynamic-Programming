@@ -52,6 +52,8 @@ Write a function gridTraveller(m, n) that calculates this.
 >
 > gridTraveller(0, n), gridTraveller(m, 0) = 0
 >
+> gridTraveller(m, n) = gridTraveller(n, m)
+>
 > Moving right on a m x n grid will result in a (m-1) x n for the next move
 >
 > Moving down on a m x n grid will result in a m x (n-1) grid for the next move
@@ -80,4 +82,33 @@ Write a function gridTraveller(m, n) that calculates this.
 
 <p align="center">
     <img src="assets/grid_table.png" width="600">
+</p>
+
+<h3>Generate a number from a list of integers</h3>
+Given a list of integers with **n** elements, generate a given number, **m** by adding numbers from the list.
+A number can be used multiple times. The numbers are non-negative.
+This problem can have multiple variations.
+1. Can you generate the number from the given list?
+2. How many ways can you generate the number from the list?
+3. What is the shortest way of generating the number from the list?
+
+> If n is 0, it can be generated regardless of the elements in the list
+>
+> Keep subtracting the elements until the result is negative
+>
+> If the final subtraction result is exactly 0, that means the number can be generated
+>
+> Once got to 0, move up the tree to find the exact sequence of numbers
+>   
+> Brute force recursion time complexity: O(n<sup>m</sup>)
+
+#### [Memorization](src/recursion/sum/)
+
+- Create a memory object using hash-map or similar data structure
+- Store the return values in the hash-map with the input number as key
+- In the beginning of every recursion, check for the result in the memory object
+- If the result is already there, return; otherwise continue subtracting until the number gets negative
+
+<p align="center">
+    <img src="assets/sum_tree.png" width="600">
 </p>
