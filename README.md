@@ -86,6 +86,7 @@ Write a function gridTraveller(m, n) that calculates this.
 </p>
 
 <h3>Generate a number from a list of integers</h3>
+
 Given a list of integers with **n** elements, generate a given number, **m** by adding numbers from the list.
 A number can be used multiple times. The numbers are non-negative.
 This problem can have multiple variations.
@@ -119,10 +120,51 @@ This problem can have multiple variations.
 
 - Create a table with (m + 1) elements, initialize with null
 - Seed the table by setting table[0] = [ ]
-- Iterate through the table and for any non-null element iterate through the list of numbers and append the current number, **n** to all the combinations in current index, **i** and add them all to the **[ i + n ]** index of the table.
+- Iterate through the table and for any non-null element iterate through the list of numbers and append the current number, **n** to all the combinations in the current index, **i** and add them all to the **[ i + n ]** index of the table.
 - Continue till the current index reaches **m**
 - Time complexity: **O(n x m<sup>2</sup>)**
 
 <p align="center">
     <img src="assets/sum_table.png" width="600">
 </p>
+
+<h3>Construct a String from a list of sub-strings</h3>
+
+Given a list of sub-strings with **n** elements, generate a given string, with **m** characters by concatenating sub-strings from the list.
+A sub-string can be used multiple times.
+This problem can have multiple variations.
+1. Can you generate the string from the given list?
+2. How many ways can you generate the string from the list?
+3. What is the shortest way of generating the string from the list?
+
+> If m is 0, the string can be generated regardless of the elements in the list
+>
+> If the string starts with a specific sub-string, it can be subtracted from the target string to get a new target string
+>
+> Keep subtracting the elements when it's still possible
+>
+> If the final subtraction result is empty string, that means the string can be generated
+>
+> Once got to empty string, move up the tree to find the exact sequence of sub-strings
+>   
+> Brute force recursion time complexity: O(n<sup>m</sup>)
+
+#### [Memorization](src/recursion/construct/)
+
+- Create a memory object using hash-map or similar data structure
+- Store the return values in the hash-map with the input number as key
+- In the beginning of every recursion, check for the result in the memory object
+- If the result is already there, return; otherwise continue subtracting until the string becomes empty
+- Time complexity: **O(n x m<sup>2</sup>)**
+
+<p align="center">
+    <img src="assets/construct_tree.png" width="600">
+</p>
+
+#### [Tabulation](src/tabulation/construct/)
+
+- Create a table with (m + 1) elements, initialize with null
+- Seed the table by setting table[0] = [ ]
+- Iterate through the table and for any non-null element iterate through the list of sub-strings and if the current sub-string matches the corresponding sub-string in the target word, append it to all the combinations in the current index, **i** and add them all to the **[ i + n ]** index of the table.
+- Continue till the current index reaches **m**
+- Time complexity: **O(n x m<sup>2</sup>)**
