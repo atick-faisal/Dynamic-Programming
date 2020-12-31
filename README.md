@@ -18,3 +18,7 @@ The function should return n-th number in the **Fibonacci sequence**.
 > Algorithm: fib(n) = fib(n-1) + fib(n-2)
 >
 > Brute force time complexity: O(2<sup>n</sup>). After optimization: O(n)
+
+<p align="center">
+    <img src="assets/fib_tree.png" width="600">
+</p>

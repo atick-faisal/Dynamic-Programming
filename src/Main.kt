@@ -42,7 +42,7 @@ fun main() {
 //        n = CountTable.getCount(
 //                "asdfe", arrayOf("as", "df", "asd", "f", "e"))
         n = AllConstructTable.getAllCombinations(
-                "asdf", arrayOf("as", "df", "asd", "f", "e"))
+                "asdfh", arrayOf("as", "df", "asd", "f", "e"))
     }
     print("RESULT: ${n}, TIME: $timeElapsed ms")
 }
