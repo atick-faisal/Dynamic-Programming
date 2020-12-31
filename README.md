@@ -19,6 +19,9 @@ The function should return n-th number in the **Fibonacci sequence**.
 >
 > Brute force time complexity: O(2<sup>n</sup>). After optimization: O(n)
 
+##### [Optimization using Memorizarion](/src/recursion/fibonacci/Fibonacci.kt)
+We can optimize the performance by caching the results of the repeating nodes. This reduces the time complexity to **`O(n)`**
+
 <p align="center">
     <img src="assets/fib_tree.png" width="600">
 </p>
