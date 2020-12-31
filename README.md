@@ -4,6 +4,26 @@
 <h1 align="center">Dynamic Programming</h1>
 <p align="cneter" justify="center">Dynamic Programming is mainly an optimization over plain recursion. Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming. The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later. This simple optimization reduces time complexities from exponential to polynomial.</p>
 
+#### Directory Structure
+
+```
+    src
+     |___ recursion
+     |       |______ fibonacci
+     |                  |_____ Fibonacci.kt
+     |       |______ grid
+     |                  |_____ GridTraveller.kt
+     |       ....    ...    ...    ...
+     |       
+     |___ tabulation
+             |______ fibonacci
+                        |_____ Fibonacci.kt
+             |______ grid
+                        |_____ GridTraveller.kt
+             ....    ...    ...    ...
+```
+
+
 <h3>Fibonacci</h3>
 
 Write a function **fib(n)** that takes in a number as an argument.
